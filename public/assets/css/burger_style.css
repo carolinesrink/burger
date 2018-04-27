@@ -1,0 +1,66 @@
+body {
+    background: url("/assets/img/bobs-burgers-2.png") no-repeat center center fixed;
+    background-size: cover;
+}
+
+#top {
+    margin-top: 250px;
+}
+
+#top,
+#second {
+    padding-left: 38%;
+    font-size: 30px;
+    font-family: 'Wendy One', sans-serif;
+}
+
+#third {
+    font-size: 24px;
+    font-family: 'Wendy One', sans-serif;
+}
+
+input:not([type]),
+input[type=text]:not(.browser-default),
+input[type=password]:not(.browser-default),
+input[type=email]:not(.browser-default),
+input[type=url]:not(.browser-default),
+input[type=time]:not(.browser-default),
+input[type=date]:not(.browser-default),
+input[type=datetime]:not(.browser-default),
+input[type=datetime-local]:not(.browser-default),
+input[type=tel]:not(.browser-default),
+input[type=number]:not(.browser-default),
+input[type=search]:not(.browser-default),
+textarea.materialize-textarea {
+    border-bottom: 2.3px solid #000000;
+}
+
+input:not([type]):focus:not([readonly]),
+input[type=text]:not(.browser-default):focus:not([readonly]),
+input[type=password]:not(.browser-default):focus:not([readonly]),
+input[type=email]:not(.browser-default):focus:not([readonly]),
+input[type=url]:not(.browser-default):focus:not([readonly]),
+input[type=time]:not(.browser-default):focus:not([readonly]),
+input[type=date]:not(.browser-default):focus:not([readonly]),
+input[type=datetime]:not(.browser-default):focus:not([readonly]),
+input[type=datetime-local]:not(.browser-default):focus:not([readonly]),
+input[type=tel]:not(.browser-default):focus:not([readonly]),
+input[type=number]:not(.browser-default):focus:not([readonly]),
+input[type=search]:not(.browser-default):focus:not([readonly]),
+textarea.materialize-textarea:focus:not([readonly]) {
+    border-bottom: 2.3px solid #000000;
+    box-shadow: 0 1px 0 0 #000000;
+}
+
+button {
+    font-family: 'Lato', sans-serif;
+}
+
+#userBurger {
+    padding-left: 38%;
+}
+
+ul:not(.browser-default) {
+    padding-left: 38%;
+    list-style-type: none;
+}
